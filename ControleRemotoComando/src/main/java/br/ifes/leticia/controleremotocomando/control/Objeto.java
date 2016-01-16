@@ -9,6 +9,7 @@ package br.ifes.leticia.controleremotocomando.control;
  *
  * @author Leticia
  */
-public interface Controle {
-    public void executar();
+public interface Objeto {
+    public void ligar();
+    public void desligar();
 }

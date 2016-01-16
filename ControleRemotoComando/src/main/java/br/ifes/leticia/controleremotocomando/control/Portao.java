@@ -10,5 +10,24 @@ package br.ifes.leticia.controleremotocomando.control;
  * @author Leticia
  */
 public class Portao {
+    private boolean aberto;
     
+    public Portao(){
+        aberto = false;
+        System.out.println("Portão está fechado!");
+    }
+    
+    public void desligar(){
+        if(aberto){
+            aberto = false;
+            System.out.println("Fechando o portão...");
+        }
+    }
+    
+    public void ligar(){
+        if(!aberto){
+            aberto = true;
+            System.out.println("Abrindo o portão...");
+        }
+    }
 }
