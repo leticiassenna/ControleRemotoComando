@@ -16,7 +16,7 @@ import br.ifes.leticia.controleremotocomando.model.ControleExecuta;
  *
  * @author Leticia
  */
-public class Application {
+public class Usuario {
     public static void main(String[] args){
         Objeto objeto;
         Controle controle;
