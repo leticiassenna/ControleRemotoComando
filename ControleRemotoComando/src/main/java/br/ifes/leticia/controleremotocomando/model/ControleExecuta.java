@@ -21,6 +21,6 @@ public class ControleExecuta implements Controle{
 
     @Override
     public void executar() {
-        classeObjeto.desligar();
+        classeObjeto.ligar();
     }
 }

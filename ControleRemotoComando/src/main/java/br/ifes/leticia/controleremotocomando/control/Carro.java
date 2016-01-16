@@ -9,7 +9,7 @@ package br.ifes.leticia.controleremotocomando.control;
  *
  * @author Leticia
  */
-public class Carro {
+public class Carro implements Objeto{
     private boolean ligado;
     
     public Carro(){
@@ -17,6 +17,7 @@ public class Carro {
         System.out.println("Carro está deslidado!");
     }
     
+    @Override
     public void desligar(){
         if(ligado){
             ligado = false;
@@ -24,6 +25,7 @@ public class Carro {
         }
     }
     
+    @Override
     public void ligar(){
         if(!ligado){
             ligado = true;

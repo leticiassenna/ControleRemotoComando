@@ -21,6 +21,6 @@ public class ControleDesfaz implements Controle{
 
     @Override
     public void executar() {
-        classeObjeto.ligar();
+        classeObjeto.desligar();
     }
 }
